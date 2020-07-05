@@ -1,0 +1,33 @@
+#logo {
+    position: absolute;
+    left: 43%;
+    margin-left: -70px;
+    top: 30%;
+    margin-top: -30px;
+}
+
+.search {
+    width: 500px;
+    height: 40px;
+    position: absolute;
+    left: 32%;
+    margin-left: -53px;
+    top: 50%;
+    margin-top: -30px;
+}
+
+#navbar li {
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+li a:link {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
