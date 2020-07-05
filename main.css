@@ -22,12 +22,30 @@
     margin: 0;
     padding: 0;
 }
+
 li a:link {
     text-decoration: none;
     color: black;
     font-size: 13px;
+    padding: 5px;
 }
 
 li a:hover {
     text-decoration: underline;
+}
+
+li img {
+    width: 25px;
+}
+
+ul span {
+    float: right;
+}
+
+.signin {
+    background-color: #3399ff;
+    color: white;
+    height: 35px;
+    width: 75px;
+    font-size: 13px;
 }
