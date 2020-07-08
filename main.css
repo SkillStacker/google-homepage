@@ -1,5 +1,6 @@
 #logo {
     position: absolute;
+    justify-content: center;
     left: 43%;
     margin-left: -70px;
     top: 30%;
@@ -10,42 +11,51 @@
     width: 500px;
     height: 40px;
     position: absolute;
+    justify-content: center;
     left: 32%;
     margin-left: -53px;
     top: 50%;
     margin-top: -30px;
 }
 
-#navbar li {
-    list-style-type: none;
-    display: inline;
-    margin: 0;
+#navbar {
     padding: 0;
+    margin: 15px;
+    margin-top: 25px;
+    font-size: 12px
 }
 
-li a:link {
+#navbar a:link {
     text-decoration: none;
     color: black;
-    font-size: 13px;
+    font-size: 12px;
     padding: 5px;
 }
 
-li a:hover {
+#navbar a:hover {
     text-decoration: underline;
 }
 
-li img {
+.apps img {
     width: 25px;
 }
 
-ul span {
-    float: right;
+.rightside {
+    display: inline-block;
 }
 
+
 .signin {
-    background-color: #3399ff;
-    color: white;
-    height: 35px;
-    width: 75px;
+    background-color: #4285f4;
+    color: #fff;
+    height: 30px;
+    width: 70px;
     font-size: 13px;
+    border: 2px solid #4285f4
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: lightgrey;
 }
