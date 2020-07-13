@@ -1,10 +1,7 @@
-#logo {
-    position: absolute;
-    justify-content: center;
-    left: 43%;
-    margin-left: -70px;
-    top: 30%;
-    margin-top: -30px;
+.logo {
+    margin: auto;
+    width: 250px;
+    text-align: center;
 }
 
 .search {
@@ -59,7 +56,16 @@
     border: 2px solid #4285f4
 }
 
-footer {
+.bottom {
+    background-color: lightgrey;
+    box-sizing: border-box;
+}
+
+.bottomright {
+    float: right;
+}
+
+.bottomleft {
     position: fixed;
     bottom: 0;
     background-color: lightgrey;
