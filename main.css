@@ -1,18 +1,16 @@
 .logo {
     margin: auto;
+    margin-top: 150px;
     width: 250px;
     text-align: center;
 }
 
 .search {
+    margin: auto;
+    margin-left: auto;
     width: 500px;
     height: 40px;
-    position: absolute;
-    justify-content: center;
-    left: 32%;
-    margin-left: -53px;
-    top: 50%;
-    margin-top: -30px;
+    
 }
 
 #navbar {
@@ -58,15 +56,28 @@
 
 .bottom {
     background-color: lightgrey;
-    box-sizing: border-box;
+    bottom: 0;
+    display: block;
+    position: fixed;
+    width: 99%;
+    padding: 10px;
+}
+
+.bottom a:link {
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
 }
 
 .bottomright {
+    display: inline-block;
     float: right;
+    font-size: 13px;
+    margin-right: 15px;
 }
 
 .bottomleft {
-    position: fixed;
-    bottom: 0;
-    background-color: lightgrey;
+    display: inline-block;
+    font-size: 13px;
+    text-decoration: none;
 }
