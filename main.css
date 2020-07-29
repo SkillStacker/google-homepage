@@ -1,16 +1,21 @@
+.google {
+    text-align: center;
+}
 .logo {
-    margin: auto;
     margin-top: 150px;
     width: 250px;
+    display: inline-block;
+}
+
+.form {
     text-align: center;
 }
 
 .search {
-    margin: auto;
-    margin-left: auto;
     width: 500px;
     height: 40px;
-    
+    display: inline-block;
+    margin-top: 25px;
 }
 
 #navbar {
