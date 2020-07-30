@@ -1,6 +1,7 @@
 .google {
     text-align: center;
 }
+
 .logo {
     margin-top: 150px;
     width: 250px;
@@ -16,6 +17,22 @@
     height: 40px;
     display: inline-block;
     margin-top: 25px;
+    border-radius: 25px;
+    border-width: 1px;
+    background-color: transparent;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.button_one {
+    display: inline;
+}
+
+.button_two {
+    display: inline;
 }
 
 #navbar {
